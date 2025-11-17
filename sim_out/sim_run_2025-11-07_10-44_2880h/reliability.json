@@ -1,0 +1,219 @@
+{
+  "uptime_percent": 94.86284722222223,
+  "downtime_hours": 147.94999999999982,
+  "mtbf_hours": 78.05857142857144,
+  "mttr_hours": 4.2271428571428515,
+  "event_count": 35,
+  "reliability_index": 96.60618271727303,
+  "events": [
+    {
+      "start_time_hours": 109.70857758902493,
+      "duration_hours": 2.501277812732384,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 242.74050695086515,
+      "duration_hours": 2.8452146911541885,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 316.31147078051856,
+      "duration_hours": 1.4750644155202155,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 331.314774096346,
+      "duration_hours": 1.2859403064546937,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 444.25394144727056,
+      "duration_hours": 3.293220289730678,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 570.5376269629845,
+      "duration_hours": 18.56441324903009,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 772.2687215351866,
+      "duration_hours": 1.0774505937489387,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 815.8576144410326,
+      "duration_hours": 2.713919578162245,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1048.1867560303417,
+      "duration_hours": 0.7239114643627439,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1052.2867693895541,
+      "duration_hours": 9.729631441112808,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1074.3454264366471,
+      "duration_hours": 13.120070291199221,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1134.4069229018523,
+      "duration_hours": 3.680342777965322,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1153.0527945648137,
+      "duration_hours": 2.546356612719229,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1249.5065302522296,
+      "duration_hours": 0.6049490722185057,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1250.4316036443279,
+      "duration_hours": 2.5905639536327145,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1335.1667044349078,
+      "duration_hours": 3.537332059107639,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1437.563824538238,
+      "duration_hours": 3.1344876152813597,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1501.285022953608,
+      "duration_hours": 5.6715091220532035,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1539.6032190408173,
+      "duration_hours": 7.260483996992764,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1556.4733839707842,
+      "duration_hours": 7.9199196021897,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1582.7669975991296,
+      "duration_hours": 2.170564250982565,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1738.195177983216,
+      "duration_hours": 5.128552500339648,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 1962.0067250868258,
+      "duration_hours": 5.113866816169481,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 2006.5291073265926,
+      "duration_hours": 5.446576340326029,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 2036.4744487552007,
+      "duration_hours": 0.6941177292867294,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 2081.7293588050647,
+      "duration_hours": 2.932400728403115,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 2152.9193234324334,
+      "duration_hours": 1.9807195269758222,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 2300.0021040747724,
+      "duration_hours": 1.9266791902758678,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 2343.345026365959,
+      "duration_hours": 1.725575879832885,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 2420.7326809681363,
+      "duration_hours": 10.684704436907374,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 2487.3428855627367,
+      "duration_hours": 7.247375472313873,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 2554.2637899154497,
+      "duration_hours": 4.16090543195745,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 2560.2377284911763,
+      "duration_hours": 2.671075752988511,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 2607.1760974151543,
+      "duration_hours": 0.9110863624364307,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 2658.483350156525,
+      "duration_hours": 0.8743035693182539,
+      "component": "plant"
+    }
+  ],
+  "monte_carlo": {
+    "uptime_percent_mean": 95.38870601851852,
+    "uptime_percent_std": 1.0255403598572188,
+    "downtime_hours_mean": 132.80526666666668,
+    "downtime_hours_std": 29.535562363887898,
+    "trial_count": 5000,
+    "financial": {
+      "profit": {
+        "mean": 29264968.06037992,
+        "std": 2058862.1904643967,
+        "min": 24483185.802261956,
+        "max": 34447291.76351097,
+        "count": 5000,
+        "value_at_risk": 25926961.403396405,
+        "conditional_value_at_risk": 25415940.458432723,
+        "confidence": 0.95
+      },
+      "cost": {
+        "mean": 67969365.41787717,
+        "std": 3422106.249391031,
+        "min": 60270367.74674598,
+        "max": 76583439.61754073,
+        "count": 5000
+      }
+    }
+  },
+  "weibull_shape": 1.15,
+  "weibull_scale": 75.65397485742149,
+  "bayesian_failure_rate": {
+    "alpha": 36.0,
+    "beta": 2952.0,
+    "mean_rate": 0.012195121951219513
+  },
+  "bayesian_mtbf_hours": 82.0
+}

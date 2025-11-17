@@ -1,0 +1,74 @@
+{
+  "uptime_percent": 95.83796296296296,
+  "downtime_hours": 29.966666666666697,
+  "mtbf_hours": 115.00555555555555,
+  "mttr_hours": 4.99444444444445,
+  "event_count": 6,
+  "reliability_index": 97.2558468076461,
+  "events": [
+    {
+      "start_time_hours": 109.70857758902493,
+      "duration_hours": 2.501277812732384,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 242.74050695086515,
+      "duration_hours": 2.8452146911541885,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 316.31147078051856,
+      "duration_hours": 1.4750644155202155,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 331.314774096346,
+      "duration_hours": 1.2859403064546937,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 444.25394144727056,
+      "duration_hours": 3.293220289730678,
+      "component": "plant"
+    },
+    {
+      "start_time_hours": 570.5376269629845,
+      "duration_hours": 18.56441324903009,
+      "component": "plant"
+    }
+  ],
+  "monte_carlo": {
+    "uptime_percent_mean": 95.35052546296296,
+    "uptime_percent_std": 2.042398446204972,
+    "downtime_hours_mean": 33.476216666666666,
+    "downtime_hours_std": 14.7052688126758,
+    "trial_count": 5000,
+    "financial": {
+      "profit": {
+        "mean": 7403061.585616208,
+        "std": 519598.18110501475,
+        "min": 6195284.076778736,
+        "max": 8701839.914413732,
+        "count": 5000,
+        "value_at_risk": 6574444.457385955,
+        "conditional_value_at_risk": 6437714.082389523,
+        "confidence": 0.95
+      },
+      "cost": {
+        "mean": 17157893.35590421,
+        "std": 864851.3224778026,
+        "min": 15239454.416077016,
+        "max": 19427310.977591857,
+        "count": 5000
+      }
+    }
+  },
+  "weibull_shape": 1.15,
+  "weibull_scale": 75.65397485742149,
+  "bayesian_failure_rate": {
+    "alpha": 7.0,
+    "beta": 792.0,
+    "mean_rate": 0.008838383838383838
+  },
+  "bayesian_mtbf_hours": 113.14285714285715
+}
