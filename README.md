@@ -179,6 +179,5 @@ These parameters drive the simulator: dynamics consume flow/efficiency values, r
 - Introduce optimisation/RL controllers for fuel and feedwater scheduling.
 - Export Parquet archives with run indices to accelerate analytics on large batches.
 
-## 11. License / Credits
 
-Released as internal project scaffolding; add organisation licensing terms here. Credits to the simulation and analytics team contributing process, reliability, and financial models.
+
