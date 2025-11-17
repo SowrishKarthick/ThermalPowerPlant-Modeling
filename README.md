@@ -4,6 +4,7 @@
 - **Purpose:** Model a coal-fired power plant with coupled thermodynamics, reliability, and economics, then surface KPIs in a production-grade dashboard.
 - **Scope:** Fuel handling, boiler/steam generation, turbine & condenser, feedwater & treatment loops, stochastic reliability, and fully costed financials.
 - **What’s included:** Modular simulation engine, timestamped results archive, two-tab Dash dashboard (Executive Summary + Plant Components), and complete configuration in `config/simulation_config.py`.
+- **Limitation:** The simulation assumes first-order dynamics for all plant subsystems. A more detailed representation (e.g., second-order models for each component) is required to achieve higher accuracy.
 
 ## 2. Repository Structure
 
@@ -173,7 +174,7 @@ These parameters drive the simulator: dynamics consume flow/efficiency values, r
 - Sanity checks: energy balance (fuel energy vs electrical export), inventory non-negativity, KPI ranges (cost per MWh positive), and dashboard loading for each new run.
 
 ## 10. Roadmap
-
+- Improve The modeling accuracy of the Subsystems by choosing appropriate plant dynamics.
 - Add carbon capture subsystem with associated dynamics and cost streams.
 - Introduce optimisation/RL controllers for fuel and feedwater scheduling.
 - Export Parquet archives with run indices to accelerate analytics on large batches.
